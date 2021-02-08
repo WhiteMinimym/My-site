@@ -1,0 +1,169 @@
+body {
+	margin: 0 auto;
+	padding: 0;
+	width: 1240px;
+	height: 1748px;
+	box-sizing: border-box;
+	font-family: "MyriadProRegular";
+}
+@font-face {
+	font-family: "MyriadProRegular";
+	src: url("font/MyriadProRegular/MyriadProRegular.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+.header {
+	width: 1240px;
+	height: 370px;
+	display: flex;
+	background-color: #a4a362;
+}
+.text {
+	padding-top: 121px;
+	padding-left: 36px;
+}
+.name {
+		/* Style for "OLEKSANDR" */
+	margin: 0;
+	width: 705px;
+	height: 47px;
+	color: #ffffff;
+	font-size: 45px;
+	font-weight: 700;
+	line-height: 100px;
+	text-align: left;
+	text-transform: uppercase;
+	/* Text style for "O, LEKSAND" */
+	font-style: normal;
+	letter-spacing: 2px;
+	line-height: normal;
+}
+.position {
+		 /* Style for "FULL-STACK" */
+	margin: 0;
+	width: 535px;
+	height: 23px;
+	color: #ffffff;
+	font-size: 23px;
+	font-weight: 700;
+	line-height: 100px;
+	text-align: left;
+	text-transform: uppercase;
+	/* Text style for "FULL-STACK" */
+	font-style: normal;
+	letter-spacing: 1px;
+	line-height: normal;
+	padding-top: 47px;
+}
+.photo {
+	padding-top: 36px;
+	padding-left: 79px;
+}
+.photo img {
+		/* Style for "Фото" */
+	width: 300px;
+	height: 300px;
+}
+.main-section {
+	width: 1240px;
+	display: flex;
+}
+.sidebar {
+	width: 473px;
+	height: 1315px;
+	background-color: #cae2e8;
+	display: flex;
+	flex-direction: column;
+}
+.sidebar-contacts,
+.sidebar-skills {
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+}
+.sidebar-title {
+	color: #000000;
+	font-size: 42px;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 68px;
+}
+.sidebar-subtitle {
+	color: #a4a362;
+	font-size: 33px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+.sidebar-text {
+	font-size: 33px;
+	text-align: center;
+	color: #000000;
+	margin-top: 20px;
+	margin-bottom: 28px;
+}
+.sidebar-skills {
+	margin-top: 65px;
+}
+.sidebar-list {
+	list-style-type: none;
+}
+.sidebar-list li {
+	font-size: 33px;
+	text-transform: uppercase;
+	color: #000000;
+}
+.MainInfo{
+	width: 765px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+.info-wrapper{
+	margin-top: 46px; 
+    margin-left: 70px;
+	width: 655px;
+}
+.summary_tittle{
+	width: 655px;
+    height: 47px;
+	display: flex;
+	justify-content: center;
+	background-color: #a4a362;
+    align-items: center;
+}
+.summary_tittle_txt{
+	font-family: "MyriadProRegular";
+    font-size: 33.4px;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+	text-transform: uppercase;
+}
+.summary_text{
+	margin-top: 19px;
+	font-family: MyriadPro;
+    font-size: 33.4px;
+    line-height: 33px;
+    font-weight: bold;
+    letter-spacing: 0.03em;
+    color: #000000;
+	margin-bottom: 0px;
+}
+.exp-subtext{
+	font-size: 25px;
+    font-style: italic;
+    color: #6d7a8c;
+}
+.info-wrapper1{
+	margin-top: 46px; 
+    margin-left: 70px;
+	width: 655px;
+}
+.Footer{
+	width: 1240px;
+    height: 70px;
+    background-color: #a4a362;
+}
